@@ -59,18 +59,6 @@ Vitest (optional — tests)
 
 📱 Fully responsive — works well on mobile & desktop
 
-📦 Project structure (high-level)
-src/
-├── app/                       # Next.js app routes (App Router)
-├── components/                # Reusable UI components (Editor, Preview, Drawer, Modals)
-├── features/
-│   ├── newsletter/            # Newsletter composer state + UI + templates
-│   └── manager/               # Saved newsletters list & scheduling UI
-├── hooks/                     # Custom hooks (useAutosave, useLocalStorage)
-├── lib/                       # helper functions (date utils, storage adapters)
-├── styles/                    # tailwind config + global css
-├── types/                     # TypeScript types and interfaces
-└── pages/api/ (optional)      # placeholder API routes (if needed later)
 
 🔧 Getting started (run locally)
 
